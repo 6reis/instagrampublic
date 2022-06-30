@@ -1,0 +1,63 @@
+ body{
+background-color: rgb(19, 18, 18);
+}
+
+.container {
+    margin: 300px auto;
+    width: 540px;
+    
+    
+  }
+   
+  .login {
+    display: content;
+    justify-content: center;
+    padding: 20px 20px 20px;
+    border:2px solid;
+    border-color: gray;
+    background-color: rgb(41, 40, 40);
+    opacity: 0.6;
+    border-radius: 6px;
+    width: 656px;
+    height: 300px;
+  }
+  
+.login-help p{
+    color : white;
+    margin-top: -4px;
+    text-align: center;
+}
+.login h1{
+color:aqua;
+text-decoration-color: white;
+
+}
+.remember{
+    color: white;
+    float: left;
+  line-height: 31px;
+  margin-top: 20px;
+}
+
+.login-help p:first-child { 
+margin-top: 20px;
+}
+ .User [type="text"] [type="password"] {
+  background-color: rgb(71, 71, 71);
+ text-decoration-color: white;
+ align-items: center;
+ justify-content: center;
+
+ }
+ input[type="submit"]{
+	width:100%;
+	padding:8px 16px;
+	margin-top:88px;
+	border:1px solid rgb(53, 51, 51);
+	border-radius:5px;
+	display:block;
+  background-color: aqua;
+  color: floralwhite;
+  font-size:large;
+ 
+}
